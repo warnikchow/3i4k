@@ -9,5 +9,9 @@ Intonation-based identification of intention for Korean
 # Annotation Guideline (in Korean)
 https://drive.google.com/file/d/1JvZpCQEa4FkFgDAKO3VKJueFYOpJDUNQ/view?usp=sharing
 
+# Word Vector (model.bin)
+https://drive.google.com/file/d/1QtkE0hiBT97c5AMNln-F3Sx7F3xZL0xc/view?usp=sharing
+* This can be replaced with whatever model the user employs.
+
 # YouTube demo
 https://youtu.be/RnYOU-JfKMM
