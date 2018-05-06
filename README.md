@@ -1,9 +1,13 @@
 # 3i4K
 Intonation-based identification of intention for Korean
 
+## Requirements
+KoNLPy, fastText, Keras (TensorFlow), Numpy, NLTK
+
 ## System Description
-* python3 execute file
-> python3 fast_execute.py
+* System training with 'classify.py' (line by line!)
+* Python3 execute file
+<pre><code> python3 fast_execute.py </code></pre>
 - First, this system detects the fragments.
 - Next, if the input sentence clearly shows its intention among statement, question, command, rhetorical question and rhetorical command (idiomatic expression), this directly decides the intention.
 - If the intonation information is indispensable, this requires an auxiliary input and makes an intonation-aided decision.
