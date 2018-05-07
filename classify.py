@@ -10,33 +10,33 @@ def read_data(filename):
 from random import shuffle
 ######## frag/clear-cut/ID
 
-dataset_fcix = read_data('fci_x.txt')
-dataset_fciy_ =read_data('fci_y.txt')
+dataset_fcix = read_data('data/fci_x.txt')
+dataset_fciy_ =read_data('data/fci_y.txt')
 dataset_fciy = np.zeros(len(dataset_fciy_))
 for i in range(len(dataset_fciy)):
   dataset_fciy[i] = float(dataset_fciy_[i][0])
 
 ######## 3-class
 
-dataset_3x = read_data('3class_x.txt')
-dataset_3y_ = read_data('3class_y.txt')
+dataset_3x = read_data('data/3class_x.txt')
+dataset_3y_ = read_data('data/3class_y.txt')
 dataset_3y = np.zeros(len(dataset_3y_))
 for i in range(len(dataset_3y)):
   dataset_3y[i] = float(dataset_3y_[i][0])
 
 ######## 5-class 
 
-dataset_5x = read_data('5class_x.txt')
-dataset_5y_ = read_data('5class_y.txt')
+dataset_5x = read_data('data/5class_x.txt')
+dataset_5y_ = read_data('data/5class_y.txt')
 dataset_5y = np.zeros(len(dataset_5y_))
 for i in range(len(dataset_5y)):
   dataset_5y[i] = float(dataset_5y_[i][0])
 
 ######## into_dep
 
-dataset_intox = read_data('intodep_x.txt')
-dataset_intoaux_ = read_data('intodep_aux.txt')
-dataset_intoy_ = read_data('intodep_y.txt')
+dataset_intox = read_data('data/intodep_x.txt')
+dataset_intoaux_ = read_data('data/intodep_aux.txt')
+dataset_intoy_ = read_data('data/intodep_y.txt')
 dataset_intoaux = np.zeros(len(dataset_intoaux_))
 dataset_intoy = np.zeros(len(dataset_intoy_))
 for i in range(len(dataset_intoaux)):
@@ -45,9 +45,9 @@ for i in range(len(dataset_intoaux)):
 
 ######## intodep_only
 
-dataset_nintox = read_data('intodep_only_x.txt')
-dataset_nintoaux_ = read_data('intodep_only_aux.txt')
-dataset_nintoy_ = read_data('intodep_only_y.txt')
+dataset_nintox = read_data('data/intodep_only_x.txt')
+dataset_nintoaux_ = read_data('data/intodep_only_aux.txt')
+dataset_nintoy_ = read_data('data/intodep_only_y.txt')
 dataset_nintoaux = np.zeros(len(dataset_nintoaux_))
 dataset_nintoy = np.zeros(len(dataset_nintoy_))
 for i in range(len(dataset_nintoaux)):
