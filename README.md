@@ -5,10 +5,10 @@ Intonation-based identification of intention for Korean
 KoNLPy, fastText, Keras (TensorFlow), Numpy, Scikit-learn, NLTK
 
 ## System Description
-* System training with 'classify.py' (line by line!)
-* Python3 execute file
-<pre><code> python3 fast_execute.py </code></pre>
+* They system is trained with 'classify.py' (line by line!)
 * Download the word vector file below and unzip it.
+* Easy start: Python3 execute file
+<pre><code> python3 fast_execute.py </code></pre>
 
 ### Intention Identification
  - First, this system detects the fragments.
