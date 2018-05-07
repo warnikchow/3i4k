@@ -4,9 +4,13 @@ Intonation-based identification of intention for Korean
 ## Requirements
 KoNLPy, fastText, Keras (TensorFlow), Numpy, Scikit-learn, NLTK
 
+## Word Vector (model.bin)
+https://drive.google.com/file/d/1QtkE0hiBT97c5AMNln-F3Sx7F3xZL0xc/view?usp=sharing
+* Download this and unzip in the same folder with 'fast_execute.py'.
+* This can be replaced with whatever model the user employs.
+
 ## System Description
 * They system is trained with 'classify.py' (line by line!)
-* Download the word vector file below and unzip it.
 * Easy start: Python3 execute file
 <pre><code> python3 fast_execute.py </code></pre>
 
@@ -20,10 +24,6 @@ KoNLPy, fastText, Keras (TensorFlow), Numpy, Scikit-learn, NLTK
 
 ## Annotation Guideline (in Korean)
 https://drive.google.com/file/d/1JvZpCQEa4FkFgDAKO3VKJueFYOpJDUNQ/view?usp=sharing
-
-## Word Vector (model.bin)
-https://drive.google.com/file/d/1QtkE0hiBT97c5AMNln-F3Sx7F3xZL0xc/view?usp=sharing
-* This can be replaced with whatever model the user employs.
 
 ## YouTube demo
 https://youtu.be/RnYOU-JfKMM
