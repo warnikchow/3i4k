@@ -8,6 +8,7 @@ KoNLPy, fastText, Keras (TensorFlow), Numpy, Scikit-learn, NLTK
 * System training with 'classify.py' (line by line!)
 * Python3 execute file
 <pre><code> python3 fast_execute.py </code></pre>
+* Download the word vector file below and unzip it.
 
 ### Intention Identification
  - First, this system detects the fragments.
