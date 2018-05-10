@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1QtkE0hiBT97c5AMNln-F3Sx7F3xZL0xc/view?usp=shari
 * This can be replaced with whatever model the user employs.
 
 ## System Description
-* They system is trained with 'classify.py' (line by line!)
+* The system was trained with 'classify.py' (line by line!)
 * Easy start: Python3 execute file
 <pre><code> python3 fast_execute.py </code></pre>
 
