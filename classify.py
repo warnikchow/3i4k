@@ -264,9 +264,9 @@ def validate_cnn(result,y,label_num,filename):
     callbacks_list = [checkpoint]
     model.fit(result,y,validation_split=0.1,epochs=20,batch_size=16,callbacks=callbacks_list)
 
-validate_cnn(fci_conv,dataset_fciy,3,'modelfci/cnn')
-validate_cnn(data3_conv,dataset_3y,3,'model3/cnn')
-validate_cnn(data5_conv,dataset_5y,5,'model5/cnn')
+validate_cnn(fci_conv,dataset_fciy,3,'model/modelfci/cnn')
+validate_cnn(data3_conv,dataset_3y,3,'model/model3/cnn')
+validate_cnn(data5_conv,dataset_5y,5,'model/model5/cnn')
 
 def featurize_rnn(corpus,maxlen):
   rec_total = np.zeros((len(corpus),maxlen,wdim))
@@ -297,9 +297,9 @@ def validate_bilstm(result,y,label_num,filename):
     callbacks_list = [checkpoint]
     model.fit(result,y,validation_split=0.1,epochs=20,batch_size=16,callbacks=callbacks_list)
 
-validate_bilstm(fci_rec,dataset_fciy,3,'modelfci/bilstm')
-validate_bilstm(data3_rec,dataset_3y,3,'model3/bilstm')
-validate_bilstm(data5_rec,dataset_5y,5,'model5/bilstm')
+validate_bilstm(fci_rec,dataset_fciy,3,'model/modelfci/bilstm')
+validate_bilstm(data3_rec,dataset_3y,3,'model/model3/bilstm')
+validate_bilstm(data5_rec,dataset_5y,5,'model/model5/bilstm')
 
 '''
 classify_document('topics/Email')
@@ -315,8 +315,8 @@ classify_document('topics_v7/Weather')
 
 from keras.models import load_model
 
-model3_bilstm = load_model('model3/bilstm-17-0.8843.hdf5')
-modelfci_bilstm = load_model('modelfci/cnn-16-0.8176.hdf5')
+model3_bilstm = load_model('model/model3/bilstm-17-0.8843.hdf5')
+modelfci_bilstm = load_model('model/modelfci/cnn-16-0.8176.hdf5')
 
 def predict_fci(st):
     token = twit_token(st)
@@ -385,10 +385,10 @@ def aux_bilstm(x_rnn,x_finalaux,x_y,hidden_dim,filename):
   callbacks_list = [checkpoint]
   model.fit([x_rnn,x_finalaux],x_y,validation_split=0.1,epochs=20,batch_size=16,callbacks=callbacks_list)
 
-aux_bilstm(datainto_rec,dataset_finalaux,dataset_intoy,32,'modelaux/bilstm32')
-aux_bilstm(datainto_rec,dataset_finalaux,dataset_intoy,64,'modelaux/bilstm64')
-aux_bilstm(datainto_rec,dataset_finalaux,dataset_intoy,128,'modelaux/bilstm128')
+aux_bilstm(datainto_rec,dataset_finalaux,dataset_intoy,32,'model/modelaux/bilstm32')
+aux_bilstm(datainto_rec,dataset_finalaux,dataset_intoy,64,'model/modelaux/bilstm64')
+aux_bilstm(datainto_rec,dataset_finalaux,dataset_intoy,128,'model/modelaux/bilstm128')
 
-aux_bilstm(dataninto_rec,dataset_nfinalaux,dataset_nintoy,32,'modelnaux/bilstm32')
-aux_bilstm(dataninto_rec,dataset_nfinalaux,dataset_nintoy,64,'modelnaux/bilstm64')
-aux_bilstm(dataninto_rec,dataset_nfinalaux,dataset_nintoy,128,'modelnaux/bilstm128')
+aux_bilstm(dataninto_rec,dataset_nfinalaux,dataset_nintoy,32,'model/modelnaux/bilstm32')
+aux_bilstm(dataninto_rec,dataset_nfinalaux,dataset_nintoy,64,'model/modelnaux/bilstm64')
+aux_bilstm(dataninto_rec,dataset_nfinalaux,dataset_nintoy,128,'model/modelnaux/bilstm128')
