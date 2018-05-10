@@ -121,11 +121,11 @@ print('Importing models...\n')
 
 from keras.models import load_model
 
-model3_bilstm = load_model('model3/bilstm-17-0.8843.hdf5')
-model5_bilstm = load_model('model5/bilstm-16-0.8750.hdf5')
-modelfci_bilstm = load_model('modelfci/cnn-16-0.8176.hdf5')
-modelaux_bilstm = load_model('modelaux/bilstm32-13-0.8695.hdf5')
-modelnaux_bilstm = load_model('modelnaux/bilstm32-10-0.8543.hdf5')
+model3_bilstm = load_model('model/model3/bilstm-17-0.8843.hdf5')
+model5_bilstm = load_model('model/model5/bilstm-16-0.8750.hdf5')
+modelfci_bilstm = load_model('model/modelfci/cnn-16-0.8176.hdf5')
+modelaux_bilstm = load_model('model/modelaux/bilstm32-13-0.8695.hdf5')
+modelnaux_bilstm = load_model('model/modelnaux/bilstm32-10-0.8543.hdf5')
 
 maxlen = 20
 wdim   =100
