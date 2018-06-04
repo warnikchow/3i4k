@@ -7,7 +7,7 @@ KoNLPy, fastText, Keras (TensorFlow), Numpy, Scikit-learn, NLTK
 ## Word Vector (model.bin)
 https://drive.google.com/file/d/1QtkE0hiBT97c5AMNln-F3Sx7F3xZL0xc/view?usp=sharing
 * Download this and unzip THE .BIN FILE in the same folder with 'fast_execute.py'.
-* This can be replaced with whatever model the user employs.
+* This can be replaced with whatever model the user employs, but it requires an additional training.
 
 ## System Description
 * The system was trained with 'classify.py' (line by line!)
