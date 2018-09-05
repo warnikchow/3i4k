@@ -2,7 +2,7 @@
 Intonation-based identification of intention for Korean
 
 ## Requirements
-KoNLPy, fastText, Keras (TensorFlow), Numpy, Scikit-learn, NLTK
+fastText, Keras (TensorFlow), Numpy
 
 ## Word Vector (model.bin)
 https://drive.google.com/file/d/1QtkE0hiBT97c5AMNln-F3Sx7F3xZL0xc/view?usp=sharing
