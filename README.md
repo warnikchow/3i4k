@@ -12,7 +12,7 @@ https://drive.google.com/file/d/1QtkE0hiBT97c5AMNln-F3Sx7F3xZL0xc/view?usp=shari
 ## System Description
 * The system was trained with 'classify.py' (line by line!)
 * Easy start: Python3 execute file
-<pre><code> python3 fast_execute.py </code></pre>
+<pre><code> python3 onlychar_fast_execute.py </code></pre>
 
 ### Intention Identification
  - First, this system detects the fragments.
