@@ -1,5 +1,5 @@
 # 3i4K
-Intonation-based identification of intention for Korean
+Intonation-aided identification of intention for Korean
 
 ## Requirements
 fastText, Keras (TensorFlow), Numpy
@@ -16,7 +16,7 @@ https://drive.google.com/file/d/1QtkE0hiBT97c5AMNln-F3Sx7F3xZL0xc/view?usp=shari
 ### Intention Identification
  - First, this system detects the fragments.
  - Next, if the input sentence clearly shows its intention among statement, question, command, rhetorical question and rhetorical command (idiomatic expression), this directly decides the intention.
- - If the intonation information is indispensable, this requires an auxiliary input and makes an intonation-aided decision.
+ - If the intonation information is indispensable, this requires an auxiliary feature and makes an intonation-aided decision.
  
 ### Text Classification
  - This system classifies a corpus (input: filename without '.txt') into 7 categories: fragments, intonation-dependent utterances, and previously mentioned 5 clear-cut cases.
@@ -24,5 +24,5 @@ https://drive.google.com/file/d/1QtkE0hiBT97c5AMNln-F3Sx7F3xZL0xc/view?usp=shari
 ## Annotation Guideline (in Korean)
 https://drive.google.com/file/d/1JvZpCQEa4FkFgDAKO3VKJueFYOpJDUNQ/view?usp=sharing
 
-## YouTube demo
+## YouTube demo (non-audio-input version)
 https://youtu.be/OlvLlH8JgmM
