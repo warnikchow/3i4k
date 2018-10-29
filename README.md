@@ -15,7 +15,7 @@ fastText, Keras (TensorFlow), Numpy, Librosa
 * C: Clear-cut cases (statements, questions, commands, rhetorical questions, rhetorical commands) (CCs)
 * I: Intonation-dependent utterances (IUs)
 ### Corpus composition<br/>
-<image src="https://github.com/warnikchow/3i4k/blob/master/images/portion.PNG" width="500"><br/>
+<image src="https://github.com/warnikchow/3i4k/blob/master/images/portion.PNG" width="400"><br/>
 ### Block diagram<br/>
 <image src="https://github.com/warnikchow/3i4k/blob/master/images/fig1.png" width="500"><br/>
 
