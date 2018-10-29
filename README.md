@@ -17,7 +17,7 @@ fastText, Keras (TensorFlow), Numpy, Librosa
 ### Corpus composition<br/>
 <image src="https://github.com/warnikchow/3i4k/blob/master/images/portion.PNG" width="500"><br/>
 ### Block diagram<br/>
-<image src="https://github.com/warnikchow/3i4k/blob/master/images/fig1.png" width="700"><br/>
+<image src="https://github.com/warnikchow/3i4k/blob/master/images/fig1.png" width="500"><br/>
 
 ## System Description
 * Easy start: Demonstration.exe
