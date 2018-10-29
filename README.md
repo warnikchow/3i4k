@@ -22,7 +22,7 @@ https://drive.google.com/file/d/1QtkE0hiBT97c5AMNln-F3Sx7F3xZL0xc/view?usp=shari
  - This system classifies a corpus (input: filename without '.txt') into 7 categories: fragments, intonation-dependent utterances, and previously mentioned 5 clear-cut cases.
 
 ## Annotation Guideline (in Korean)
-https://drive.google.com/file/d/1JvZpCQEa4FkFgDAKO3VKJueFYOpJDUNQ/view?usp=sharing
+https://drive.google.com/open?id=1AvxzEHr7wccMw7LYh0J3Xbx5GLFfcvMW
 
 ## YouTube demo (non-audio-input version)
 https://youtu.be/OlvLlH8JgmM
