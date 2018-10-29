@@ -4,8 +4,8 @@ Intonation-aided identification of intention for Korean
 ## Requirements
 fastText, Keras (TensorFlow), Numpy
 
-## Word Vector (model.bin)
-https://drive.google.com/file/d/1QtkE0hiBT97c5AMNln-F3Sx7F3xZL0xc/view?usp=sharing
+## Word Vector
+[Pretrained 100dim fastText vector](https://drive.google.com/open?id=1jHbjOcnaLourFzNuP47yGQVhBTq6Wgor)
 * Download this and unzip THE .BIN FILE in the same folder with 'onlychar_fast_execute.py'.
 * This can be replaced with whatever model the user employs, but it requires an additional training.
 
