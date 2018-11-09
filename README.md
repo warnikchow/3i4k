@@ -3,6 +3,7 @@ Intonation-aided identification of intention for Korean
 
 ## Requirements
 fastText, Keras (TensorFlow), Numpy, Librosa
+**Currently available for python 3.5 and upper version is in implementation**
 
 ## Word Vector
 [Pretrained 100dim fastText vector](https://drive.google.com/open?id=1jHbjOcnaLourFzNuP47yGQVhBTq6Wgor)
@@ -16,6 +17,10 @@ fastText, Keras (TensorFlow), Numpy, Librosa
 * I: Intonation-dependent utterances (IUs)
 ### Corpus composition<br/>
 <image src="https://github.com/warnikchow/3i4k/blob/master/images/portion.PNG" width="400"><br/>
+* IAA: *kappa* = 0.85 for Corpus 1
+* Data for FCI module is labeled in 0-6, split in train:test with ratio 9:1. 
+* Available in *data* forder.
+  
 ### Block diagram<br/>
 <image src="https://github.com/warnikchow/3i4k/blob/master/images/fig1.png" width="500"><br/>
 
