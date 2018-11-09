@@ -2,7 +2,7 @@
 Intonation-aided identification of intention for Korean
 
 ## Requirements
-fastText, Keras (TensorFlow), Numpy, Librosa
+fastText, Keras (TensorFlow), Numpy, Librosa<br/>
 **Currently available for python 3.5 and upper version is in implementation**
 
 ## Word Vector
