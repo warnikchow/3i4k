@@ -1,5 +1,5 @@
 # 3i4K
-Intonation-aided identification of intention for Korean
+Intonation-aided intention identification for Korean
 
 ## Requirements
 fastText, Keras (TensorFlow), Numpy, Librosa<br/>
