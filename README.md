@@ -52,7 +52,7 @@ https://drive.google.com/open?id=1AvxzEHr7wccMw7LYh0J3Xbx5GLFfcvMW
 	year={2018}
 }
 ```
-### For the utilization of the annotatio guideline and dataset, cite the following:
+### For the utilization of the annotation guideline or dataset, cite the following:
 ```
 @article{cho2018speech,
 	title={Speech Intention Understanding in a Head-final Language: A Disambiguation Utilizing Intonation-dependency},
