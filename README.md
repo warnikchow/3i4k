@@ -42,5 +42,25 @@ fastText, Keras (TensorFlow), Numpy, Librosa<br/>
 ## Annotation Guideline (in Korean)
 https://drive.google.com/open?id=1AvxzEHr7wccMw7LYh0J3Xbx5GLFfcvMW
 
+## Citation
+### For the utilization of [the word vector dictionary](https://drive.google.com/open?id=1jHbjOcnaLourFzNuP47yGQVhBTq6Wgor), cite the following:
+```
+@article{cho2018real,
+	title={Real-time Automatic Word Segmentation for User-generated Text},
+	author={Cho, Won Ik and Cheon, Sung Jun and Kang, Woo Hyun and Kim, Ji Won and Kim, Nam Soo},
+	journal={arXiv preprint arXiv:1810.13113},
+	year={2018}
+}
+```
+### For the utilization of the annotatio guideline and dataset, cite the following:
+```
+@article{cho2018speech,
+	title={Speech Intention Understanding in a Head-final Language: A Disambiguation Utilizing Intonation-dependency},
+	author={Cho, Won Ik and Lee, Hyeon Seung and Yoon, Ji Won and Kim, Seok Min and Kim, Nam Soo},
+	journal={arXiv preprint arXiv:1811.04231},
+	year={2018}
+}
+```
+
 ## YouTube demo (non-audio-input version; for past submission)
 https://youtu.be/OlvLlH8JgmM
