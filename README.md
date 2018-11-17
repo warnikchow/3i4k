@@ -20,6 +20,8 @@ fastText, Keras (TensorFlow), Numpy, Librosa<br/>
 * IAA: *kappa* = 0.85 for Corpus 1
 * Data for FCI module is labeled in 0-6, split in train:test with ratio 9:1. 
 * Available in *data* forder.
+#### For the data, an advanced version (more utterances on fragments and IUs, rearrangement for some utterances) is being prepared. Might be released before 2019.
+* FR과 IU를 보강하고 일부 문장들을 재배열한 advanced version의 data를 준비 중이며, 2019년이 되기 전에는 release할 계획입니다. 코퍼스 변경 시 명시해 두도록 하겠습니다.	
   
 ### Block diagram<br/>
 <image src="https://github.com/warnikchow/3i4k/blob/master/images/fig1.png" width="500"><br/>
