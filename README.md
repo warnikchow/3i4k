@@ -11,6 +11,7 @@ fastText, Keras (TensorFlow), Numpy, Librosa<br/>
 * This can be replaced with whatever model the user employs, but it requires an additional training.
 
 ## Dataset
+### A modified dataset is released! (18.11.21)
 ### FCI: A seven-class text corpus for the classification of conversation-style and non-canonical Korean utterances
 * F: Fragments (nouns, noun phrases, incomplete sentences etc.) (FRs)
 * C: Clear-cut cases (statements, questions, commands, rhetorical questions, rhetorical commands) (CCs)
@@ -20,7 +21,7 @@ fastText, Keras (TensorFlow), Numpy, Librosa<br/>
 * IAA: *kappa* = 0.85 for Corpus 1
 * Data for FCI module is labeled in 0-6, split in train:test with ratio 9:1. 
 * Available in *data* folder.
-#### For the data, an advanced version (more examples on fragments and IUs, rearrangement for some utterances) is being prepared. Might be released before 2019.	
+
   
 ### Block diagram<br/>
 <image src="https://github.com/warnikchow/3i4k/blob/master/images/fig1.png" width="500"><br/>
