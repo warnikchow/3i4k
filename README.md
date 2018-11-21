@@ -35,15 +35,15 @@ The next version will incoporate much more utterances and will be treated as a s
 - Given only a text input, the system classifies the input into one the aforementioned 7 categories. Available in demo.
 - Text classification is also available in demo;  a corpus (input: filename without '.txt') can be categorized into 7 classes.
 - Available by importing module
-<pre><code> from classify import pred_only_text </code></pre>
-<pre><code> from classify import classify_document </code></pre>
+<pre><code> from classify import pred_only_text('*sentence_you_choose*') </code></pre>
+<pre><code> from classify import classify_document('*filename_you_choose*') </code></pre>
 
 ### Speech Intention Understanding
 - Available by importing module
-<pre><code> from classify import pred_audio_text </code></pre>
+<pre><code> from classify import pred_audio_text('*speechfilename_you_choose*','*sentence_you_choose*') </code></pre>
 
-## Annotation Guideline (in Korean)
-https://drive.google.com/open?id=1AvxzEHr7wccMw7LYh0J3Xbx5GLFfcvMW
+## Annotation Guideline and Acknowledgement
+The [annotation guideline (in Korean)](https://drive.google.com/open?id=1AvxzEHr7wccMw7LYh0J3Xbx5GLFfcvMW) was elaborately constructed by Won Ik Cho, with the great help of Ha Eun Park and Dae Ho Kook. Also, the authors appreciate Jong In Kim, Kyu Hwan Lee, and Jio Chung from SNU Spoken Language Processing laboratory (SNU SLP) for providing the useful corpus for the analysis. We note that this work was supported by the Technology Innovation Program (10076583, Development of free-running speech recognition technologies for embedded robot system) funded By the Ministry of Trade, Industry & Energy (MOTIE, Korea).
 
 ## Citation
 ### For the utilization of the [word vector dictionary](https://drive.google.com/open?id=1jHbjOcnaLourFzNuP47yGQVhBTq6Wgor), cite the following:
