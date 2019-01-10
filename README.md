@@ -12,7 +12,7 @@ fastText, Keras (TensorFlow), Numpy, Librosa<br/>
 
 ## Dataset
 ### (18.12.28) **Dataset under modification!!** 
-We've found a few misclassified utterances and undergoing modification, thus the true-final version will be disclosed before Fabrary. Pilot implemenation (e.g., as [tutorial](https://github.com/warnikchow/dlk2nlp)) does not matter, but do not cite this dataset as a benchmark until Fabrary. The notice will be available as soon as possible.
+We've found a few misclassified utterances and undergoing modification, thus the true-final version will be disclosed before Fabrary. Pilot implemenation of the system (e.g., as [tutorial](https://github.com/warnikchow/dlk2nlp)) is less involved with this problem, but do not cite this dataset as a benchmark until Fabrary. The notice will be available as soon as possible.
 ### (18.11.22) [A final version of dataset](https://github.com/warnikchow/3i4k/blob/master/data/fci.txt) and the new model is uploaded! 
 The next version will incoporate much more utterances and will be treated as a separate dataset.
 ### FCI: A seven-class text corpus for the classification of conversation-style and non-canonical Korean utterances
