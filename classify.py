@@ -20,7 +20,7 @@ from keras.models import load_model
 import librosa
 
 model_fci  = load_model('model/rec_self_char_dense_drop-24-0.8882.hdf5')
-mse_crs  = load_model('model/total_s_rmse_cnn_rnnself-12-0.7714-f0.4412.hdf5')
+mse_crs  = load_model('model/modelspeech/total_s_rmse_cnn_rnnself-12-0.7714-f0.4412.hdf5')
 model_aux=load_model('model/modelaux/bilstm_att_re-29-0.9016.hdf5')
 
 mlen=300
