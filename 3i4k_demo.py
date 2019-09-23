@@ -8,9 +8,9 @@ print('#########################################################\n#             
 import fasttext
 
 def read_data(filename):
-    with open(filename, 'r') as f:
-        data = [line.split('\t') for line in f.read().splitlines()]
-    return data
+  with open(filename, 'r') as f:
+    data = [line.split('\t') for line in f.read().splitlines()]
+  return data
 
 model_ft = fasttext.load_model('vectors/model_drama.bin')
 
@@ -26,8 +26,8 @@ import librosa
 print('Importing models...\n')
 
 model_fci  = load_model('model/rec_self_char_dense_drop-24-0.8882.hdf5')
-mse_crs  = load_model('model/modelspeech/total_s_rmse_cnn_rnnself-12-0.7714-f0.4412.hdf5')
-model_aux=load_model('model/modelaux/bilstm_att_re-29-0.9016.hdf5')
+mse_crs    = load_model('model/modelspeech/total_s_rmse_cnn_rnnself-12-0.7714-f0.4412.hdf5')
+model_aux  = load_model('model/modelaux/bilstm_att_re-29-0.9016.hdf5')
 
 mlen=300
 wdim=100
@@ -44,8 +44,8 @@ def featurize_charcnn_utt(corpus,maxcharlen):
   conv_total = np.zeros((1,maxcharlen,wdim,1))
   s = corpus
   for j in range(len(s)):
-        if s[-j-1] in model_ft and j<maxcharlen:
-            conv_total[0,-j-1,:,0]=model_ft[s[-j-1]]
+    if s[-j-1] in model_ft and j<maxcharlen:
+      conv_total[0,-j-1,:,0]=model_ft[s[-j-1]]
   return conv_total
 
 def make_data(filename):
