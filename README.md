@@ -50,7 +50,7 @@ The next version will incoporate much more utterances and will be treated as a s
 <pre><code> from classify import pred_audio_text('speechfilename_you_choose', 'sentence_you_choose') </code></pre>
 
 ## Annotation Guideline and Acknowledgement
-The [annotation guideline (in Korean)](https://drive.google.com/open?id=1AvxzEHr7wccMw7LYh0J3Xbx5GLFfcvMW) was elaborately constructed by Won Ik Cho, with the great help of Ha Eun Park and Dae Ho Kook. Also, the authors appreciate Jong In Kim, Kyu Hwan Lee, and Jio Chung from SNU Spoken Language Processing laboratory (SNU SLP) for providing the useful corpus for the analysis. We note that this work was supported by the Technology Innovation Program (10076583, Development of free-running speech recognition technologies for embedded robot system) funded By the Ministry of Trade, Industry & Energy (MOTIE, Korea).
+The [annotation guideline (in Korean)]https://docs.google.com/document/d/1-dPL5MfsxLbWs7vfwczTKgBq_1DX9u1wxOgOPn1tOss/edit# (previous version is [here](https://drive.google.com/open?id=1AvxzEHr7wccMw7LYh0J3Xbx5GLFfcvMW)) was elaborately constructed by Won Ik Cho, with the great help of Ha Eun Park and Dae Ho Kook. Also, the authors appreciate Jong In Kim, Kyu Hwan Lee, and Jio Chung from SNU Spoken Language Processing laboratory (SNU SLP) for providing the useful corpus for the analysis. We note that this work was supported by the Technology Innovation Program (10076583, Development of free-running speech recognition technologies for embedded robot system) funded By the Ministry of Trade, Industry & Energy (MOTIE, Korea).
 
 ## Citation
 ### For the utilization of the [word vector dictionary](https://drive.google.com/open?id=1jHbjOcnaLourFzNuP47yGQVhBTq6Wgor), cite the following:
@@ -62,7 +62,7 @@ The [annotation guideline (in Korean)](https://drive.google.com/open?id=1AvxzEHr
 	year={2018}
 }
 ```
-### For the utilization of the [annotation guideline](https://drive.google.com/open?id=1AvxzEHr7wccMw7LYh0J3Xbx5GLFfcvMW) or the [dataset](https://github.com/warnikchow/3i4k/blob/master/data/fci.txt), cite the following:
+### For the utilization of the [annotation guideline](https://docs.google.com/document/d/1-dPL5MfsxLbWs7vfwczTKgBq_1DX9u1wxOgOPn1tOss/edit#) or the [dataset](https://github.com/warnikchow/3i4k/blob/master/data/fci.txt), cite the following:
 ```
 @article{cho2018speech,
 	title={Speech Intention Understanding in a Head-final Language: A Disambiguation Utilizing Intonation-dependency},
