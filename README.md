@@ -11,6 +11,7 @@ fastText, Keras (TensorFlow), Numpy, Librosa<br/>
 * This can be replaced with whatever model the user employs, but it requires an additional training.
 
 ## Dataset
+### (20.10.13) We updated our LICENSE to [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) and rearranged [our guideline](https://docs.google.com/document/d/1-dPL5MfsxLbWs7vfwczTKgBq_1DX9u1wxOgOPn1tOss/edit#) (in Korean) so as to be used officially. The international version is to be prepared with the publication.
 ### (19.06.06) We provide train & validation, and test set separately [here](https://github.com/warnikchow/3i4k/tree/master/data/train_val_test), for an easier Keras-based implementation.
 The (train+validation) : test ratio is 9 : 1, and train : validation ratio is also 9 : 1 (thus, in total, 0.81 : 0.09 : 0.1).
 ### (19.02.28) [**A Renewed version of the final corpus**](https://github.com/warnikchow/3i4k/blob/master/data/fci.txt)
